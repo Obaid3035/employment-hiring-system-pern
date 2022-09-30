@@ -1,0 +1,20 @@
+:root {
+    --primary: #013F84;
+    --warning: #f6b300;
+}
+
+.btn-medium  {
+    padding: 2rem 9rem;
+        border-radius: 1rem;
+        font-size: 1.7rem;
+        color: white;
+        border: none;
+}
+
+.btn-small {
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}

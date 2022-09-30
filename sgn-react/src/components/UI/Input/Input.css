@@ -1,0 +1,31 @@
+.input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.inputElement {
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 6px;
+    line-height: 1.5rem;
+}
+
+.inValid {
+    border: red 1px solid;
+    background-color: salmon;
+}
+
+
+.form-group {
+    margin-bottom: 5rem;
+}
+

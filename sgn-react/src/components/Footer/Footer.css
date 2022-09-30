@@ -1,0 +1,75 @@
+.section1 {
+    background: #013f84;
+}
+
+.footer form input {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    height: 4rem !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 6px;
+}
+
+.footer form textarea {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    height: 4rem !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 6px;
+}
+
+.footer .contactDetails {
+    list-style-type: none;
+}
+.footer .contactDetails li {
+    margin-bottom: 2rem;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.footer .nav li a, .contactDetails {
+   color: white;
+}
+
+.footer .nav li {
+    line-height: 2;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.footer .contactDetails li i  {
+    margin-right: 1rem;
+}
+
+.footer .contactDetails li   {
+    text-align: left;
+}
+
+.footer .section6 {
+    padding: 19rem 0;
+    background-image: url("../../assets/img/bg5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .section6 h2 {
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: white;
+    margin: 4rem 0;
+}
+
+.footer-sub{
+    font-size: 18px !important;
+    border: none !important;
+    background-color: #ffc107;
+    color: #212529 !important;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+

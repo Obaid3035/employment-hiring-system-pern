@@ -1,0 +1,10 @@
+#top {
+    background-image: url('../../../assets/img/survey_img.jpg');
+    padding: 15rem 0;
+    background-size: cover;
+}
+
+.survey__heading {
+    color: white;
+    font-weight: bold;
+}

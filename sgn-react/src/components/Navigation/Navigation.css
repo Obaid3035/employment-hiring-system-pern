@@ -1,0 +1,92 @@
+#navbar .nav-link {
+    color: #013f84 !important;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+#navbar .navbar-brand {
+    font-size: 5.5rem;
+    color: #013f84;
+}
+
+#navbar ul .btn {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#navbar .nav-link:hover {
+    color: #f9ba00 !important;
+}
+
+#navbar .nav-link.active {
+    color: #f9ba00 !important;
+}
+
+.navbar-toggler {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+
+.language-icon {
+    height: 2.25rem;
+    width: 15rem;
+    line-height: 26px;
+    padding: 0.25rem;
+    color: #464D69;
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+    background-color: #fff;
+}
+.header-icon {
+    height: 45px;
+    width: 65px;
+    margin-left: 20px;
+    border-top: 1px solid #EBEDF2;
+    border-bottom: 1px solid #EBEDF2;
+    border-left: 1px solid #EBEDF2;
+    border-right: 1px solid #EBEDF2;
+    border-radius: 0.25rem;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    transition: all 0.5s ease 0s;
+    color: #727891;
+}
+
+.dropdown-list{
+    font-size: 15px !important;
+    margin-bottom: 10px !important;
+}
+.dropdown-content{
+    margin-top: 20px !important;
+    width: 100px !important;
+    margin-left: 10px !important;
+}
+
+.local-li{
+    height: 35px;
+    width: 50px;
+    margin: 20px !important;
+    text-decoration: none !important;
+    padding-bottom: 10px !important;
+    border-top: 2px solid #EBEDF2;
+    border-bottom: 2px solid #EBEDF2;
+    border-left: 2px solid #EBEDF2;
+    border-right: 2px solid #EBEDF2;
+    border-radius: 0.25rem;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    transition: all 0.5s ease 0s;
+    color: #727891;
+    padding-bottom: 6px !important;
+}
+
+.nav-icon{
+    font-size: 30px !important;
+    margin-right: 10px !important;
+}

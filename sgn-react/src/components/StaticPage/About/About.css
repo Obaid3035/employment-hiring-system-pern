@@ -1,0 +1,104 @@
+.about-banner-area {
+    background-image: url("../../../assets/img/career-header-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60rem;
+    /* padding: 10rem; */
+}
+
+.home__banner__text p {
+    width: 50%;
+    color: #013f84 !important;
+}
+.about-banner-area h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.about-banner-area p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.about-banner-area {
+    padding-top: 14rem;
+}
+
+.about-banner-area a.custom-scroll{
+    color: #fff;
+    writing-mode: vertical-rl;
+    margin: 2rem auto 0 auto;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.about-banner-area a:hover{
+    color: #f3ae00;
+}
+
+.about-banner-area .header-content{
+    padding-top: 14rem;
+}
+.detail-section {
+    padding: 8rem 0;
+}
+.detail-section h3 {
+    font-size: 2.5rem;
+    color: #f3ae00;
+}
+
+.detail-section h3 span {
+    color: #003578;
+}
+
+.get-quote {
+    background-color: #f3ae00;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: .8rem;
+    line-height: 4rem;
+}
+
+.about-cta-section {
+    background-image: url('../../../assets/img/about-detail-section-cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15rem 0;
+}
+
+.about-card-body {
+    background-color: #003578;
+    color: #fff;
+    text-align: center;
+}
+
+.about-card-body .card-text {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.bg-circle-image img {
+    position: absolute;
+    margin-top: 14.5rem;
+}
+
+@media (max-width: 991px) {
+
+    .home__banner__text p {
+        width: 100% !important;
+        font-size: 15px !important;
+        font-weight: 700 !important;
+    }
+    .home__banner__text h1 {
+     text-align: center !important;
+    }
+}

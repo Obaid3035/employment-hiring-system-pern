@@ -1,0 +1,12 @@
+@media (max-width: 991px) {
+.lang-prov{
+    display: flex;
+    justify-content: center;
+}
+  
+}
+
+
+.main-nav{
+    color: #000 !important;
+}

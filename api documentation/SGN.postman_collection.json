@@ -1,0 +1,2614 @@
+{
+	"info": {
+		"_postman_id": "b2ea6d1b-a17c-4897-a1b4-5614379785e3",
+		"name": "SGN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23059691"
+	},
+	"item": [
+		{
+			"name": "Query",
+			"item": [
+				{
+					"name": "Create Query",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createQuotes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/quote",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"quote"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getQuotes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/quote",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"quote"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateQuotes",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/quote/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"quote",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getSingleQuote",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/quote/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"quote",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteQuery",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/quote/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"quote",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "quoteUpload",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/file/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"file",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getFile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/file/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"file",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "semiAdminLogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/semiAdmin/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"semiAdmin",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getGetInTouches",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/getInTouch",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"getInTouch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteGetInTouches",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/getInTouch/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"getInTouch",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin/query",
+			"item": [
+				{
+					"name": "getQueries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"query"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "jobs",
+			"item": [
+				{
+					"name": "jobController.show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/job/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"job",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "jobController.index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/jobs",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"jobs"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Registration/ApplicationForm",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "userController.index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/application",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"application"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getApplication",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/get-app/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"get-app",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userController.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "uploadResume",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/resume/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"resume",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getResume",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/resume/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"resume",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/logout",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdminLogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "forgotPassword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/forgotPassword",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"forgotPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "authenticate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/authenticate/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"authenticate",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "resetPassword",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/reset-password/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"reset-password",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminCreate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminRole",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/role",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"role"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/job",
+			"item": [
+				{
+					"name": "adminJobListing",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/job",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"job"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminJobListing.show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/job/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"job",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminJobListing.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/job",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"job"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminJobListing.update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/job/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"job",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminJobListing.destroy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/job/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"job",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/subAdmin",
+			"item": [
+				{
+					"name": "adminSubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmins",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminSubAdmin.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminSubAdmin.ability",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteSubAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/deleteSubAdmin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"deleteSubAdmin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createAbility",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "showAdmins",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-select/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-select",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "viewSubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-view/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-view",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "removeSubAdmin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-app-delete/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-app-delete",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "showApp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/app-select-sub",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"app-select-sub"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addAppToSubAdmin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/add-app/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"add-app",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subAdminDisabled",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-disable/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-disable",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subAdminEnabled",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-enable/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-enable",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/employee",
+			"item": [
+				{
+					"name": "employeesForSubAdmin",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "employeesForSubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-employees",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminEmployee",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/employees",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminEmployee.show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/employee/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"employee",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminEmployee.inActive",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/employee/inactive/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"employee",
+								"inactive",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updatePosition",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/employee/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"employee",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addNotes",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/employeeNotes/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"employeeNotes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/applicationForm",
+			"item": [
+				{
+					"name": "applicationForSubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-application",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-application"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdminApplication",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/applications",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"applications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdminApplication.show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/application/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"application",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdminApplication.hired",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/application/hired/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"application",
+								"hired",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdminApplication.decline",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/application/decline/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"application",
+								"decline",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdminApplication.active",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/application/active/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"application",
+								"active",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/message",
+			"item": [
+				{
+					"name": "allMessages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/messages",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sendMessage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/message",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"message"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "helpMessageBySubAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-help",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-help"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "replyMessageBySubAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subadmin-reply",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subadmin-reply"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "replyMessage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/reply",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"reply"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getChatUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/chatUsers",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"chatUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminReplyMessage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/adminReply/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"adminReply",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/noticeOfIntent",
+			"item": [
+				{
+					"name": "noticeOfIntentBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subadmin-noticeofintents",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subadmin-noticeofintents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "noticeOfIntentByAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/noticeofintents",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"noticeofintents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCommissionedAdmin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/create-notice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"create-notice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "completedAndCommissionedBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-commisioned",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-commisioned"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "inProgressBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-inProgress",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-inProgress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allProjectBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-project",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "completedAndCommissioned",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/commissioned",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"commissioned"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "inProgressIntent",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/inProgress",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"inProgress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allProjectIntent",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/projects",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"projects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/noticeofintent/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"noticeofintent",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.approved",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/approvednotice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"approvednotice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/noticeofintent/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"noticeofintent",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.successfullyBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/successnotice-subadmin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"successnotice-subadmin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.successfull",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/successnotice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"successnotice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.toCommissioned",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/tocommissioned/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"tocommissioned",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.toCompleted",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/tocompleted/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"tocompleted",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.toInProgress",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/toInProgress/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"toInProgress",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.paid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/paidnotice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"paidnotice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/noticeofintent",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"noticeofintent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.AllUsersBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subadmin-users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subadmin-users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.AllUsers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin-users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin-users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNoticeOfIntent.destroy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/noticeOfIntent/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"noticeOfIntent",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/benifit",
+			"item": [
+				{
+					"name": "benifitsBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subAdmin-benifits",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subAdmin-benifits"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminBenifit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/benefits",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"benefits"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminBenifit.deleteBenefit",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/benefit/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"benefit",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminBenifit.allUserBenefit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/user-benefit/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"user-benefit",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminBenifit.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/benefit",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"benefit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminBenifit.addBenefit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/addbenefit/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"addbenefit",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/payment",
+			"item": [
+				{
+					"name": "uploadRecipt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/payment/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"payment",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getPayment",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/payment/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"payment",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "paidAccount",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/payments",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"payments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allPayment",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/payment",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"payment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/rewards",
+			"item": [
+				{
+					"name": "adminReward",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/rewards",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"rewards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "changeRewardStatus",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/reward-status/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"reward-status",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminReward.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/reward",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"reward"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminReward.show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/reward/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"reward",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUserBySubAdmin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/subadmin-rewardUsers",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"subadmin-rewardUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/rewardUsers",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"rewardUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminReward.edit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/reward/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"reward",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin/report",
+			"item": [
+				{
+					"name": "getReport",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/admin/report",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"report"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "employee/noticeOfIntent",
+			"item": [
+				{
+					"name": "notice",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/noticeOfIntent",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"noticeOfIntent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "project",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/projects",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"projects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addNotice",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/noticeofintent",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"noticeofintent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "approved",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/approvednoticeofintent",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"approvednoticeofintent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "toSuccessFull",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/successNoticeOfIntent/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"successNoticeOfIntent",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "employee/reward",
+			"item": [
+				{
+					"name": "getReward",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/reward/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"reward",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allReward",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/allReward",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"allReward"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCompleted",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/completed",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"completed"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "employee/benefits",
+			"item": [
+				{
+					"name": "adminBenefit.assigned",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/employee/benefit",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"employee",
+								"benefit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "notification",
+			"item": [
+				{
+					"name": "adminNotification",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/notifications",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"notifications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNotification.create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/notification",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"notification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "adminNotification.markRead",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/notification",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"notification"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "profile",
+			"item": [
+				{
+					"name": "getProfile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/profile",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRole",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/role",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"role"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contracts",
+			"item": [
+				{
+					"name": "uploadContract",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/upload/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"upload",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "downloadFile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/upload/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"upload",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "contract",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/contracts",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"contracts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allContracts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/allContracts/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"allContracts",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

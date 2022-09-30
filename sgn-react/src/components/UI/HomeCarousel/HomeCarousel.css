@@ -1,0 +1,118 @@
+.yellow {
+    color: #ffc107!important
+}
+
+.standard__font h1 {
+    font-size: 3.2rem!important;
+    font-weight: 500!important;
+    text-transform: uppercase!important;
+}
+
+.drying {
+    margin-top: 40rem;
+}
+.truck__margin {
+    margin-top: 40rem;
+}
+.truck__margin h1 {
+    color: #013584 !important;
+}
+
+.medical h1 {
+    color: #013584 !important;
+    margin-top: 10rem;
+}
+
+.electronic {
+    margin-top: 48rem;
+}
+
+.electronic h1{
+    font-size: 18px !important;
+}
+
+.tyres h1 {
+    margin-top: 60rem;
+    color: #013584 !important;
+    font-size: 30px !important;
+}
+
+.computers {
+    margin-top: 40rem;
+    margin-left: 10rem;
+}
+
+.construction {
+    margin-top: 40rem;
+    margin-left: -15rem;
+}
+
+.textile {
+    margin-top: 40rem;
+    margin-left: -15rem!important;
+}
+.digital {
+    color: white !important;
+    margin-top: 40rem;
+}
+.automobile {
+    color: white;
+    margin-top: -50rem;
+}
+
+.agricultural {
+    margin-top: 40rem;
+    margin-left: -15rem;
+
+}
+.energy {
+    color: #013584;
+    margin-top: 40rem;
+    margin-left: 80rem;
+}
+
+
+
+@media (max-width: 991px) {
+
+    .response-divC h1{
+        font-size: 16px !important;
+        /* margin-right: 26rem !important; */
+    }
+    /* .response-divC button{
+        font-size: 8px !important;
+        padding: 1rem 2rem !important;
+    } */
+    .response-div4 .button{
+        font-size: 8px !important;
+        padding: 1rem 2rem !important;
+        margin-bottom: 60px !important;
+
+    }
+
+    .response-div h1{
+        font-size: 14px !important;
+    }
+
+    .response-divD h1{
+        font-size: 16px !important;
+        margin-left: 170px !important;
+    }
+
+    /* .response-div1 button{
+        margin-bottom: 70px !important;
+    } */
+
+    .response-div2 button {
+        margin-left: 40px !important;
+    }
+    .response-div3 h1{
+        font-size: 16px !important;
+        margin-right: 40px !important;
+        margin-bottom: 90px !important;
+    }
+    .response-div4 h1{
+        font-size: 14px !important;
+        /* margin-right: ; */
+    }
+}

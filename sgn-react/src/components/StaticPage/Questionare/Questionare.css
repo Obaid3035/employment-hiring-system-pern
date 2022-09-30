@@ -1,0 +1,8 @@
+@media (max-width: 991px) {
+    .far-caption h2{
+        font-size: 20px !important;
+    }
+    .help_para{
+        margin-top: 10px !important;
+    }
+}

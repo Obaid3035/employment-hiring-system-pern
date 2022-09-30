@@ -1,0 +1,12 @@
+.contact-banner-area {
+    background-image: url('../../../assets/img/contact-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.get-form-btn{
+    font-size: 22px !important;
+    background: #f6b300 !important;
+}

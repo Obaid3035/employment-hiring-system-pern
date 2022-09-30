@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+td {
+  color: black !important;
+}
+
+.card {
+  background-color: white !important;
+  cursor: auto !important;
+}
+

@@ -1,0 +1,25 @@
+#job-desc-header-area {
+    background-image: url('../../../../assets/img/blue-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .padding h3 , p , .resume {
+         font-size: 16px !important;
+    }    
+    .padding h2 {
+        font-size: 25px !important;
+   }   
+}
+
+.padding h2 {
+    font-size: 35px !important;
+}  
+
+.apply-btn{
+    color: black !important;
+   background-color: #ffc107 !important;
+   width: 60px !important;
+}

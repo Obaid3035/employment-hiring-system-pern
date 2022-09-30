@@ -1,0 +1,15 @@
+.content .card-body th, td {
+    font-size: small;
+}
+
+.nav-item a:hover {
+    background-color: blue !important;
+    color: #fff !important;
+
+} 
+
+ .nav-item a:focus {
+    background-color: blue !important;
+    color: #fff !important;
+
+}
